@@ -1,0 +1,59 @@
+image: node:10
+
+stages:
+  - pages
+  - build-deploy
+
+variables:
+  LOCAL_PATH: public/*
+  SSH_DEPLOY_PATH: /var/www/website/
+
+# Deploys to gitlab pages
+pages:
+  stage: pages
+  script:
+    - npm i
+    - GATSBY_PATH_PREFIX=/blackbox-vision.tech/website npm run build -- --prefix-paths
+    - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public
+  cache:
+    paths:
+      - node_modules
+  only:
+    - feat/remote-working
+
+Build and Deploy Website-SPA:
+  stage: build-deploy
+  cache:
+    key: '$CI_COMMIT_REF_NAME'
+    paths:
+      - '$HOME/.npm'
+      - .cache/
+  before_script:
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 400 ~/.ssh/id_rsa
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - npm ci
+  script:
+    - npm run build
+    - ssh -T $SSH_USERNAME@$SSH_SERVER_IP "rm -rf $SSH_DEPLOY_PATH*"
+    - scp -r $LOCAL_PATH $SSH_USERNAME@$SSH_SERVER_IP:$SSH_DEPLOY_PATH
+  only:
+    refs:
+      - master
+    changes:
+      - src/**/*
+      - static/**/*
+      - content/**/*
+      - gatsby-config.js
+      - gatsby-browser.js
+      - theme.js
+      - package.json
+      - package-lock.json
+      - .gitlab-ci.yml
+  artifacts:
+    paths:
+      - public

@@ -1,0 +1,164 @@
+{
+  "header": {
+    "intro": "Why",
+    "what": "What",
+    "how": "How",
+    "success": "Success Stories",
+    "contact": "Contact Us",
+    "blog": "Blog",
+    "opensource": "Open Source"
+  },
+  "intro": {
+    "title": "We are the agency that will accompany you in the Digital Transformation of your company",
+    "subtitle": "We provide creative solutions to the needs of our clients",
+    "cta": "Get in touch"
+  },
+  "what": {
+    "title": "What do we do?",
+    "subtitle": "We focus on applying technology to give enterprise solutions that represent the business and allow creating new experiences.",
+    "development": {
+      "title": "Custom software",
+      "description": "We design and build unique digital products to meet the needs and desires of our customers."
+    },
+    "consultancy": {
+      "title": "Consultancy",
+      "description": "We help our clients diagnose architecture problems and define particular technological solutions for each scenario."
+    },
+    "training": {
+      "title": "Trainings",
+      "description": "We designed a training path for those companies who would like to train its employees about cutting-edge technologies, applications performance, software architecture and agile methodologies for software development."
+    }
+  },
+  "how": {
+    "title": "How we work?",
+    "methodology": {
+      "first": {
+        "title": "We discover",
+        "description": "Our focus is understand business and stakeholders needs, analyzing, defining and validating every requirement in order to know “what” is needed."
+      },
+      "second": {
+        "title": "We design",
+        "description": "When we know the business specifics needs, our team make a diagnostic and create scalable and tailor made solutions."
+      },
+      "third": {
+        "title": "We implement",
+        "description": "We adopt the best market practices in our solutions. We help our clients to implement industry standards that allow them to focus on continuous improvement."
+      },
+      "fourth": {
+        "title": "We manage",
+        "description": "Management is a solid pillar of our work. Because each project is unique and the follow-up of its planning and teamwork are the keys to reach the milestones successfully."
+      }
+    }
+  },
+  "success": {
+    "title": "Our Success Stories",
+    "projects": {
+      "acercando-naciones": {
+        "title": "Acercando Naciones",
+        "description": "We promoted and carried out the redesign and implementation of the cultural and diplomatic magazine of the civil association Acercando Naciones. Once their needs and expectations are known, we begin with a work of total renovation of their technological infrastructure, followed by a great improvement in their work process, which allows them to optimize resources and highlight some strengths that had not been previously recognized.",
+        "tags": {
+          "design": "UI/UX",
+          "web": "Web",
+          "technologies": "React/Next.js"
+        },
+        "btn-more": "View more"
+      }
+    }
+  },
+  "clients": {
+    "title": "Who trust us"
+  },
+  "contact": {
+    "title": "We are here to help you!",
+    "subtitle": "No matter if it is easy or difficult, our team will always be ready to answer your question",
+    "form": {
+      "title": "Contact us",
+      "subtitle": "Complete the form if you are looking for incredible solutions!",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "retry": "Retry"
+    }
+  },
+  "footer": {
+    "copyright": "All Rights Reserved",
+    "language": {
+      "es": "Spanish",
+      "en": "English"
+    }
+  },
+  "error": {
+    "message": "¡Ups! Something went wrong",
+    "btn": "Back to Home"
+  },
+  "cookies": {
+    "message": "This site uses cookies to provide you with great user experience. By continuing to use this website, you consent to the use of cookies in accordance with our",
+    "link": "Cookies Policy"
+  },
+  "remote_working": {
+    "heading": "From the beginning, we thought in BlackBox Vision as a fully remote company, sure that it was the future working way. Today, due to current circumstances, future became the present.\n That’s why we want to share with you different tips an tools that makes easier working from home.",
+    "title": "Motivation",
+    "description": "We are aware about the challenges that could happen when moving the office at home.\n We also understand that conditions are not ideal, Digital Transformation came suddenly and in a forced way.\n In case you have any doubts or need for some help implementing remote working in your company with minimum impact, we are here to help you!",
+    "cta_label": "Contact us",
+    "home": "Home",
+    "tools": "Tools",
+    "hero_heading": "Best remote working tools!",
+    "videocalls": "Videocalls",
+    "design": "Design",
+    "organization": "Organization",
+    "remote_desktop": "Remote Desktop",
+    "workspace": "Workspace",
+    "agenda": "Agenda",
+    "communication": "Communication",
+    "team_building": "Team Building",
+    "more": "More",
+    "tips": {
+      "label": "Tips",
+      "heading": "Best tips for your remote journey!",
+      "workspace": [
+        "I chose a comfortable place (with: anatomical chair, large monitor, webcam, headphones and microphone).",
+        "Good internet connection.",
+        "Desk at a good height.",
+        "Natural light and windows to ventilate.",
+        "Try to keep the atmosphere calm and personal.",
+        "Avoid distractions.",
+        "Decorate your space at ease.",
+        "Order the wiring well.",
+        "If possible, prepare a board with your goals and ideas."
+      ],
+      "agenda": [
+        "Set a start and end time for your work and respect it.",
+        "Don't be over-stressed. Two or three 10-minute breaks make you perform better the rest of the day.",
+        "Optimize your times. If your task depends on someone else's answer, I went on to another.",
+        "Agree on \"Do not disturb\" schedules with your family or roommates.",
+        "Be responsible. People trust that you will arrive with your work in a timely manner."
+      ],
+      "communication": [
+        "Talk to your team every day. It is very important that they and you are always in sync and know the progress of the project.",
+        "If you use any communication tool like Slack or Microsoft Teams, be sure to read the channels so you don't miss out on important information.",
+        "It is recommended to have a call every day, which should last 15 minutes at most. It is known as Daily Meeting, and it can identify both the progress and the blocks of the team.",
+        "It is important to use a webcam for calls, since non-verbal communication also plays a major role in the development of a team.",
+        "If you have to disconnect or leave for any reason, let me know. There is nothing worse than being marked as \"the one that never is.\""
+      ],
+      "team_building": [
+        "Plan remote activities or events with your colleagues. A strong team is one that knows and gets along well.",
+        "It is important to work with agile methodologies. With them we can optimize the tasks and responsibilities of team members.",
+        "Organize a free space where people can come up with ideas, talk about what they don't like and debate.",
+        "Be aware that we are all different. This is not bad, just the opposite. Can you imagine a world where we were all the same? Therefore, respect the ways and times of others."
+      ],
+      "organization": [
+        "It is very important that you know the roles of each member of your team. And that the responsibilities are well defined.",
+        "You need to know who to turn to when you have a problem, who to ask when you have a question, and who to report progress to.",
+        "When you have to schedule a meeting, do it in such a way that it does not overlap with another. This may seem trivial, but it happens more often than you think... We recommend using Google Calendar to avoid this situation."
+      ],
+      "more": [
+        "Take advantage of the free time you earn by not traveling, for example, to rest better, read a book or learn something new.",
+        "Exercise and eat healthy. You will feel more energetic!",
+        "Don't be a hermit. Working from home does not mean not socializing with the rest.",
+        "Don't stay in pajamas. It is difficult to achieve maximum concentration without first taking a shower: D.",
+        "Work out of your bed. Try to isolate things in your personal life with things at work."
+      ]
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "header": {
+    "intro": "Por qué",
+    "what": "Qué",
+    "how": "Cómo",
+    "success": "Casos de Éxito",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "opensource": "Open Source"
+  },
+  "intro": {
+    "title": "Somos la agencia que va a acompañarte en la Transformación Digital de tu empresa",
+    "subtitle": "Brindamos soluciones creativas a las necesidades de nuestros clientes",
+    "cta": "Contactanos"
+  },
+  "what": {
+    "title": "¿Qué hacemos?",
+    "subtitle": "Nos enfocamos en aplicar la tecnología para brindar soluciones empresariales que representen al negocio y permitan crear nuevas experiencias.",
+    "development": {
+      "title": "Software a medida",
+      "description": "Diseñamos y construimos productos digitales únicos para satisfacer las necesidades y deseos de nuestros clientes."
+    },
+    "consultancy": {
+      "title": "Consultoría",
+      "description": "Ayudamos a nuestros clientes a diagnosticar problemas de Arquitectura y definir soluciones tecnológicas particulares para cada escenario."
+    },
+    "training": {
+      "title": "Capacitaciones",
+      "description": "Diseñamos una ruta de capacitación para aquellas empresas que desean capacitar a sus empleados sobre tecnologías de punta, rendimiento de aplicaciones, arquitectura de software y metodologías ágiles para el desarrollo de software."
+    }
+  },
+  "how": {
+    "title": "¿Cómo trabajamos?",
+    "methodology": {
+      "first": {
+        "title": "Descubrimos",
+        "description": "Nos enfocamos en entender las necesidades del negocio y sus stakeholders, analizando, especificando y validando cada requerimiento a fin de comprender “Que” necesitan."
+      },
+      "second": {
+        "title": "Diseñamos",
+        "description": "Conociendo las necesidades puntuales del negocio, diagnosticamos y creamos soluciones escalables y específicas."
+      },
+      "third": {
+        "title": "Implementamos",
+        "description": "Adoptamos las mejores prácticas del mercado en nuestras soluciones. Ayudamos a nuestros clientes a implementar estándares de la industria que permitan centrarse en la mejora continua."
+      },
+      "fourth": {
+        "title": "Gestionamos",
+        "description": "La gestión es un pilar sólido de nuestro trabajo. Porque cada proyecto es único y el seguimiento de su planificación y el trabajo en equipo son las claves para alcanzar los hitos con éxito."
+      }
+    }
+  },
+  "success": {
+    "title": "Nuestros Casos de Éxito",
+    "projects": {
+      "acercando-naciones": {
+        "title": "Acercando Naciones",
+        "description": "Impulsamos y llevamos a cabo el rediseño e implementación del magazine cultural y diplomático de la asociación civil Acercando Naciones. Una vez conocidas sus necesidades y expectativas, comenzamos con un trabajo de renovación total de su infraestructura tecnológica, seguido de gran una mejora en su proceso de trabajo, permitiendoles optimizar recursos y destacar algunas fortalezas que no habían sido reconocidas previamente.",
+        "tags": {
+          "design": "UI/UX",
+          "web": "Web",
+          "technologies": "React/Next.js"
+        },
+        "btn-more": "Ver mas"
+      }
+    }
+  },
+  "clients": {
+    "title": "Quienes confían en nosotros"
+  },
+  "contact": {
+    "title": "Estamos para ayudarte!",
+    "subtitle": "No importa si es fácil o difícil, nuestro equipo siempre estará listo para responder tu pregunta",
+    "form": {
+      "title": "Contactanos",
+      "subtitle": "Completá el formulario si estás buscando soluciones increíbles!",
+      "email": "Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar",
+      "retry": "Reintentar"
+    }
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados",
+    "language": {
+      "es": "Español",
+      "en": "Inglés"
+    }
+  },
+  "error": {
+    "message": "¡Ups! Parece que algo ha salido mal",
+    "btn": "Volver a la Home"
+  },
+  "cookies": {
+    "message": "Este sitio utiliza cookies para proporcionarle una excelente experiencia de usuario. Al continuar utilizando este sitio web, usted acepta el uso de cookies de acuerdo con nuestra",
+    "link": "Política de cookies"
+  },
+  "remote_working": {
+    "heading": "Desde el inicio, pensamos en BlackBox Vision como una empresa de trabajo 100% remoto, seguros de que era la forma de trabajo del futuro. Hoy, dadas las circunstancias actuales, el futuro se volvió el presente.\n Por eso, queremos compartir distintas herramientas y tips que facilitan el trabajo desde casa.",
+    "title": "Motivación",
+    "description": "Somos conscientes de los desafíos que pueden presentarse al momento de llevar la oficina a casa.\n Entendemos que además las condiciones no son las ideales, la Transformación Digital llegó de manera repentina y forzada.\n Si tenés dudas o necesitas ayuda para implementar el trabajo remoto en tu empresa de manera que genere un impacto mínimo, estamos para ayudarte!",
+    "cta_label": "Contactanos",
+    "home": "Inicio",
+    "tools": "Herramientas",
+    "hero_heading": "Las mejores herramientas de trabajo remoto!",
+    "videocalls": "Videollamadas",
+    "design": "Diseño",
+    "organization": "Organización",
+    "remote_desktop": "Escritorio Remoto",
+    "workspace": "Espacio de trabajo",
+    "agenda": "Agenda",
+    "communication": "Comunicación",
+    "team_building": "Team Building",
+    "more": "Más",
+    "tips": {
+      "label": "Consejos",
+      "heading": "¡Los mejores consejos para trabajar remoto!",
+      "workspace": [
+        "Elegí un lugar cómodo (silla anatómica, monitor grande, webcam,  auriculares y micrófono).",
+        "Buena conexión a Internet.",
+        "Escritorio a una buena altura.",
+        "Luz natural y ventanas para ventilar.",
+        "Procura que el ambiente sea tranquilo y personal.",
+        "Evita las distracciones.",
+        "Decorá tu espacio a gusto.",
+        "Ordená bien el cableado.",
+        "En lo posible, prepara una pizarra con tus objetivos e ideas."
+      ],
+      "agenda": [
+        "Setea una hora de inicio y fin para tu trabajo y respetala.",
+        "No te sobre-estreses. Dos o tres pausas de 10 minutos hacen que rindas mejor el resto del día.",
+        "Optimiza tus tiempos. Si tu tarea depende de la respuesta de alguien más, seguí con otra.",
+        "Acorda horarios de “No molestar” con tu familia o compañeros de vivienda.",
+        "Se responsable. Las personas confían en que llegaras con tu trabajo en tiempo y forma."
+      ],
+      "communication": [
+        "Habla con tu equipo todos los días. Es muy importante que tanto ellos como vos estén siempre sincronizados y conozcan el avance del proyecto.",
+        "Si utilizas alguna herramienta de comunicación como Slack o Microsoft Teams, asegurate de leer los channels para no perderte información importante.",
+        "Se recomienda tener una call todos los días, la cual debe durar 15 minutos como mucho. Se le conoce como Daily Meeting, y en ella pueden identificarse tanto el avance como los bloqueos del equipo.",
+        "Es importante utilizar una webcam para las calls, ya que la comunicación no verbal también juega un papel primordial en el desarrollo de un equipo.",
+        "Si tenés que desconectarte o irte por algún motivo, avisalo. No hay nada peor que te marquen como “el que nunca está”."
+      ],
+      "team_building": [
+        "Planifica actividades o eventos remotos con tus compañeros. Un equipo fuerte es aquel que se conoce y se lleva bien.",
+        "Es importante trabajar con metodologías ágiles. Con ellas podemos optimizar las tareas y responsabilidades de los miembros de un equipo.",
+        "Organiza un espacio libre donde las personas puedan proponer ideas, hablar de lo que no les gusta y debatir.",
+        "Se consciente que todos somos diferentes. Esto no es malo, todo lo contrario. ¿Te imaginas un mundo donde todos fuéramos iguales?. Por eso, respeta las maneras y los tiempos de otros."
+      ],
+      "organization": [
+        "Es muy importante que conozcas los roles de cada miembro de tu equipo. Y que las responsabilidades estén bien definidas.",
+        "Es necesario que sepas a quién acudir cuando tengas un problema, a quién preguntar cuando tengas una duda, y a quién informar los avances.",
+        "Cuando tengas que agendar una reunión, hacelo de manera tal que no se superponga con otra. Esto puede parecer trivial, pero pasa mas seguido de lo que pensas... Recomendamos utilizar Google Calendar para evitar esta situación."
+      ],
+      "more": [
+        "Aprovecha el tiempo libre que ganás al no viajar, por ejemplo, para descansar mejor, leer un libro o aprender algo nuevo.",
+        "Hacé ejercicio y come sano. Te vas a sentir con mayor energía!",
+        "No seas un ermitaño. Trabajar desde tu casa no implica no socializar con el resto.",
+        "No te quedes en pijama. Es difícil lograr concentrarte al máximo sin antes tomar una ducha :D.",
+        "Trabaja fuera de tu cama. Trata de aislar las cosas de tu vida personal con las del trabajo."
+      ]
+    }
+  }
+}
